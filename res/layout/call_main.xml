@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_height="fill_parent"
+     android:layout_width="fill_parent"
+     android:orientation="vertical"
+     android:background="@drawable/background_call_main_1"
+>
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="58dp"
+            android:background="#1f3d5b"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            >
+
+        <ImageView
+                android:id="@+id/btn_toolSet"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_toolset"/>
+
+        <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:layout_marginRight="40dp"
+                android:text="去叫他"
+                android:textSize="18sp"
+                android:textColor="#ffffff"
+                android:gravity="center"/>
+
+    </LinearLayout>
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="40dp">
+        <FrameLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center">
+            <ImageView
+                    android:layout_width="300dp"
+                    android:layout_height="300dp"
+                    android:layout_gravity="center"
+                    android:scaleType="fitXY"
+                    android:background="@drawable/background_call_corner"/>
+            <Button
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:scaleType="fitXY"
+                    android:text="拖进这里"
+                    android:textColor="#ffffff"
+                    android:textSize="18sp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/background_call_circle_blue"
+                    />
+
+            <Button
+                    android:id="@+id/btn_call_find"
+                    android:tag="btn_call_find"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:text="发现"
+                    android:textSize="14sp"
+                    android:textColor="#ffffff"
+                    android:paddingTop="50dp"
+                    android:background="@drawable/button_find_normal"/>
+            <Button
+                    android:id="@+id/btn_call_random"
+                    android:tag="btn_call_random"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="230dp"
+                    android:text="随机叫醒"
+                    android:textSize="14sp"
+                    android:textColor="#ffffff"
+                    android:paddingTop="50dp"
+                    android:background="@drawable/button_random_normal"/>
+            <Button
+                    android:id="@+id/btn_call_group"
+                    android:tag="btn_call_group"
+                    android:layout_marginTop="230dp"
+                    android:layout_marginLeft="120dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="群组叫醒"
+                    android:textSize="14sp"
+                    android:textColor="#ffffff"
+                    android:paddingTop="50dp"
+                    android:background="@drawable/button_group_normal"/>
+        </FrameLayout>
+            </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_height="fill_parent"
+     android:layout_width="fill_parent"
+     android:orientation="vertical"
+     android:background="@drawable/background_call_random_recommend"
+>
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="58dp"
+            android:background="#1f3d5b"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            >
+
+        <ImageView
+                android:id="@+id/btn_back"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/button_back_normal"/>
+
+        <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:layout_marginRight="40dp"
+                android:text="制定叫醒闹钟"
+                android:textSize="18sp"
+                android:textColor="#ffffff"
+                android:gravity="center"/>
+
+    </LinearLayout>
+    <LinearLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="100dp"
+        android:gravity="center">
+        <TextView
+                android:id="@+id/text_alarm_time"
+                android:layout_marginTop="10dp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="5S"
+                android:gravity="center"
+                android:textColor="#555555"
+                android:textSize="20sp"
+                />
+        <Button
+                android:id="@+id/btn_record_alarm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:background="@drawable/button_record_press"/>
+
+	    </LinearLayout>
+</LinearLayout>

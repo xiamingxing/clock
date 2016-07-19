@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_height="fill_parent"
+     android:layout_width="fill_parent"
+     android:orientation="vertical"
+     android:background="@drawable/background_call_find"
+>
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="58dp"
+            android:background="#1f3d5b"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            >
+
+        <ImageView
+                android:id="@+id/btn_backToCallMain"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/button_back_normal"/>
+
+        <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:layout_marginRight="40dp"
+                android:text="发现"
+                android:textSize="18sp"
+                android:textColor="#ffffff"
+                android:gravity="center"/>
+
+    </LinearLayout>
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+        <ListView
+                android:id="@+id/listView_find"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@android:color/transparent"
+                android:footerDividersEnabled="false"
+                android:divider="@null"
+                android:listSelector="#00000000"
+                android:cacheColorHint="#00000000"/>
+            </LinearLayout>
+
+
+</LinearLayout>
