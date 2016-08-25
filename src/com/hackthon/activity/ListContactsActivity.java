@@ -116,7 +116,7 @@ public class ListContactsActivity extends Activity {
 		public Button viewBtn;
 	}
 
-	/** inhert BaseAdapter from qihoo.object **/
+	/** inhert BaseAdapter from object **/
 	/****************************************/
 	public class MyAdapter extends BaseAdapter {
 
@@ -180,7 +180,7 @@ public class ListContactsActivity extends Activity {
 	}
 
 	/****************************************/
-	/** inhert BaseAdapter from qihoo.object **/
+	/** inhert BaseAdapter from object **/
 
 	private void getPhoneContacts() {
 		int recordcnt = 0;
